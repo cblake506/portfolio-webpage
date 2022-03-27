@@ -37,8 +37,8 @@ h2 {
     flex: 1 1 80%;
     text-decoration: none;
     justify-content: flex-start;
-    margin-left: 1%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
 } 
 p {
     display: flex;
@@ -69,15 +69,16 @@ h3 {
     margin: 5px;
     text-decoration: none;
     background-size: 150%;
-    transition: all 0.5s;
+    transition: background-color 0.5s;
+}
+.content-box:hover{
+    background-color: blue;
 }
 
 a {
     color: black;
-
     border: 5px solid black;
     background-color: lightblue;
-
     padding: 10px;
     margin: 5px;
     text-decoration: none;
