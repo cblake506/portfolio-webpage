@@ -69,11 +69,9 @@ h3 {
     margin: 5px;
     text-decoration: none;
     background-size: 150%;
-    transition: background-color 0.5s;
+    transition: opacity 0.5s;
 }
-.content-box:hover{
-    background-color: blue;
-}
+
 
 a {
     color: black;
@@ -82,4 +80,24 @@ a {
     padding: 10px;
     margin: 5px;
     text-decoration: none;
+}
+
+.mealBox {
+    background: url("../assets/sip-or-supper.png");
+    background-size: contain;
+    opacity: 0.65;
+}
+
+.calcBox {
+    background: url("../assets/password-generator.png");
+    background-size: 100%;
+    opacity: 0.65;
+}
+
+.content-box:hover{
+    opacity: 1;
+}
+
+h4, span {
+    opacity: 1;
 }
