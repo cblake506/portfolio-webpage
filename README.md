@@ -7,4 +7,4 @@ Includes placeholder links to portfolio examples.
 ![An image of the page created.](./assets/example-image.png)
 
 ### Website Link:
-https://cblake506.github.io/Horiseon-Page/
+https://cblake506.github.io/portfolio-webpage/
